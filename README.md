@@ -17,7 +17,7 @@ Now, you should have this code on your computer. Hurrah! You'll need to do a ver
 1. Open the file in the public file called 'meta.json'. You'll need to name your publication, write a short description of what it does, and how often it is delivered.
 2. Pick an icon for your publication. It should be called icon.png and be in the public folder.
 3. (optional) At the moment your publication will return an image, but if you want your publication to have some more html in it, you can modify the file called edition.erb in the folder called views.
-4. Commit these changes to git using `git commit -a -m 'some config changes'`
+4. Commit these changes to git using `git commit -a -m 'your commit message here'`
 
 Image storage
 =============
@@ -25,7 +25,7 @@ Image storage
 This publication uses the AWS file storage for storing images. For the amount that you'll be using it, it should be free. To use it you will need to set up an account here: http://aws.amazon.com/. Once you've done that you should be able to go to this url: https://console.aws.amazon.com/s3/home?region=us-east-1 and start uploading images for your publication.
 Select 'create bucket' and name your bucket something sensible. Write this name down, you'll need it later. Then you can start adding images to your bucket. In order for this to work, you'll need to add images with the date that you want them to be published in the following format: 30-Jan-13 (the day, a three letter month code, and the year separated with hyphens)
 
-
+You will also need to upload an image called "sample" which will be the image users get when they press the "print sample" button on BERG Cloud.
 Deployment
 ==========
 
