@@ -1,0 +1,7 @@
+{
+  "owner_email":"xyz@example.com",
+  "publication_api_version":"1.0",
+  "name":"YOUR PUBLICATION NAME HERE",
+  "description":"YOUR PUBLICATION DESCRIPTION HERE",
+  "delivered_on":"DESCRIPTION OF DELIVERY PATTERNS e.g. every Tuesday / occasional days",
+}
